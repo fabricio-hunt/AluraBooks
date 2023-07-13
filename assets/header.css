@@ -62,3 +62,8 @@
     display: none;
 }
 
+::placeholder{
+
+    color: var(--branco);
+}
+
