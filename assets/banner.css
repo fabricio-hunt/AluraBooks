@@ -2,7 +2,14 @@
     background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 2.5em 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-left: 1.5em;
+    padding-right: 1.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .banner__titulo{
@@ -22,8 +29,10 @@
     color: var(--branco);
     border-radius: 24px;
     padding: 1em;
-    width: 100%;
+    width: 96%;
     text-align: center;
+    justify-content: center;
+
 }
 
 ::placeholder{
