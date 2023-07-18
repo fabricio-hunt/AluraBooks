@@ -6,9 +6,8 @@
     <meta name="description" content="Descrição da Página">
     <meta name="author" content="Nome do Autor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
     <link rel="stylesheet" type="text/css" href="assets/reset.css" media="screen" />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/index.css" media="screen" />
   </head>
 
@@ -49,13 +48,42 @@
 
     <section class="carrossel">
       <h2 class="carrossel__titulo"> Novos Lançamentos</h2>
+      <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
 
-
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"> <img src="assets/img/Liderança.svg" alt="">  </div>
+              <div class="swiper-slide"> <img src="assets/img/Tuning.svg" alt="">  </div>
+              <div class="swiper-slide"> <img src="assets/img/Arquitetura.svg" alt="">  </div>
+              <div class="swiper-slide"> <img src="assets/img/Arquitetura.svg" alt="">  </div>
+              <div class="swiper-slide"> <img src="assets/img/Gestão.svg" alt="">  </div>
+              <div class="swiper-slide"> <img src="assets/img/Javascript.svg" alt="">  </div>
+              ...
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
     </section>
 
     
     <footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script> 
+        const swiper = new Swiper('.swiper', {
+          spaceBetween: 10,
+          slidesPerView:3,
+          //...
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '">' + (index + 1) + '</span>';
+      }
+    }); </script>
+
+  
   </body>
 </html>
