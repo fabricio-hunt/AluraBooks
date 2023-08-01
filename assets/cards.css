@@ -1,6 +1,17 @@
 .card{
     width: 380px;
     height: 295px;
-    border: 5px solid orange;
+    margin: 0 auto;
+    background-color: #fff;
+}
 
+.descricao__cta--h4{
+    color: #EB9B00;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card__titulo--h2{
+    color: #002F52;
+    font-weight: 700;
 }

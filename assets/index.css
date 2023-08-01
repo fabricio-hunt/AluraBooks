@@ -3,6 +3,7 @@
 @import url("../assets/banner.css");
 @import url("../assets/carrossel.css");
 @import url("../assets/cards.css");
+@import url("../assets/main.css");
 :root{
     --cor-de-fundo: #EBECEE;
     --branco: #ffffff;
