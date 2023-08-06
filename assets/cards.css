@@ -1,17 +1,17 @@
-.card{
-    width: 380px;
-    height: 295px;
-    margin: 0 auto;
-    background-color: #fff;
+.card__descricao{
+
+    display: flex;
+    justify-content: space-between;
 }
 
-.descricao__cta--h4{
-    color: #EB9B00;
-    font-weight: 700;
-    line-height: 24px;
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
 }
 
-.card__titulo--h2{
-    color: #002F52;
-    font-weight: 700;
+.botoes{
+
+    display: flex;
 }
+
+/* 08:05 costumizar Css*/

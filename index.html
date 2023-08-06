@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Alura Books</title>
-    <meta name="description" content="Descrição da Página">
+    <meta name="description" content="Descricao da Página">
     <meta name="author" content="Nome do Autor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/reset.css" media="screen" />
@@ -72,20 +72,32 @@
           </div>
     </section >
 
-    <section class="card">
-
-      <div class="descricao__cta">
-      <h4 class="descricao__cta--h4"> Talvez você também <br> se interesse por... </h4>  
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descricao">
+          <!-- 1º coluna -->
+          <div class="descricao">
+              <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+              <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+              <p class="descricao__texto">Construindo uma aplicação integrada.</p>
+          </div>
+          <!-- 2º coluna -->
+          <img src="/assets/img/Angular.png" class="descricao__imagem">
       </div>
-      <div class="card__titulo">
-      <h2 class="card__titulo--h2"> Angular 11 e Firebase </h2>
-      <p class="card__texto"> </p>
-      Construindo uma aplicação integrada com a plataforma do Google.
-      </div>
-      <img src="/assets/img/Angular.png" class="descricao__imagem">
-      <button> Saiba Mais</button>
 
-    </section>
+      <!-- 2º linha -->
+      <div class="card__botoes">
+          <!-- 1º coluna -->
+          <ul class="botoes">
+              <li class="botoes__item"> <img src="assets/img/Favoritos-1.svg"> </li>
+              <li class="botoes__item"> <img src="/assets/img/Compras.svg"> </li>
+          </ul>
+
+
+          <!-- 2º coluna -->
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+      </div>
+  </div>
 
     
     <footer>
