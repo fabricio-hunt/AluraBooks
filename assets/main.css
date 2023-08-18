@@ -3,3 +3,20 @@
     flex-direction: column;
     overflow: hidden;
 }
+
+.lista__topicos{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bk{
+
+    padding-top: 25px;
+    display: inline-block;
+    background-color: #EB9B00;
+    margin: 5px;
+    padding: 16px 24px;
+    font-size: 14px;
+}

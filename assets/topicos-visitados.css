@@ -1,0 +1,18 @@
+.topicos{
+
+    width: 100%;
+    height: auto;
+    color: var(--branco);
+    background-color: rgb(5, 41, 93);
+    padding: 24px 0px;
+
+}
+
+.topicos__titulo{
+
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    font-family: var(--font-principal) ;
+    font-weight: 300;
+}
