@@ -5,6 +5,7 @@
 @import url("../assets/cards.css");
 @import url("../assets/main.css");
 @import url("../assets/topicos-visitados.css");
+@import url("../assets/footer.css");
 :root{
     --cor-de-fundo: #EBECEE;
     --branco: #ffffff;
