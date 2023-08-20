@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;700&display=swap');
 
 .cabecalho__menu-hamburguer{
     width: 45px;
@@ -61,6 +62,52 @@
 .container__botao{
     display: none;
 }
+
+
+.titulo__logo{
+
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .titulo__logo{
+
+        display: block;
+        font-size: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-left: 10px;
+        font-weight: 200;
+    }
+
+    .cabecalho{
+
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .negrito{
+
+        font-weight: 700;
+    }
+
+    .cabecalho__menu-hamburguer{
+
+        display: none;
+    }
+    
+    .container_imagem{
+
+        margin-left: 45px;
+    }
+    
+}
+
+
 
 
 
