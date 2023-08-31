@@ -1,12 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;700&display=swap');
 
 .main-container{
-    border: 12px solid red;
     margin: 0;
     padding:0;
     box-sizing: border-box;
     width: 100%;
     max-width: 1728px;
+    margin: 0 auto;
 }
 
 .cabecalho__menu-hamburguer{
@@ -161,7 +161,6 @@
 }
 
 }
-
 
 @media screen and (min-width: 1728px) {
     .usuarios, .compras{
